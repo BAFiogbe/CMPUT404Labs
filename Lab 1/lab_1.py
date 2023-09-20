@@ -7,6 +7,6 @@ print(requests.__version__)
 response = requests.get('http://www.google.com')
 print(response.text)
 
-# PRINT SOURCE CODE
+# PRINT
 response = requests.get('https://raw.githubusercontent.com/BAFiogbe/CMPUT404Labs/main/lab_1.py')
 print(response.text)
