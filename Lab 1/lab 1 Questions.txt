@@ -1,0 +1,44 @@
+﻿Question 1: What is your Github URL?
+
+
+https://github.com/BAFiogbe
+
+
+
+
+Question 2: What version is the requests library installed on the system?
+2.31.0
+
+
+Question 3: What version is the requests library installed in the virtualenv?
+2.31.0
+
+
+Question 4: What is the difference between the virtual environment and the not virtual environment python?
+There is no distinction between the two; both the virtual environment and the local environment are running the same version since the most recent versions were installed in each. However, if a distinct version was set up in the virtual environment, it would, when activated, utilize a different version of the requests package compared to the local environment. Essentially, a virtual environment facilitates project-specific package management.
+
+
+
+
+Question 5: What status code is returned for http://google.com ? What URL must you visit to get a 200 status code?
+You get Status Code: 301. You have to visit the url http://www.google.com to get a 200 status code.
+
+
+Question 6: What status code is returned for http://google.com/teapot? Is it the one returned by curl -i or curl -iL? What happens when you curl http://www.google.com/teapot?
+For http://google.com/teapot:
+* Status Code:
+   * 301
+   * -i: 301
+   * -iL: 418
+
+
+
+        
+For http://www.google.com/teapot:
+   * Status Code: 
+   * 418
+   * **same response when using curl iL**
+Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
+Populated form fields were changed. New headers: CONTENT_LENGTH, CONTENT_TYPE.
+Shell Environment REMOTE_PORT 57012 -> 57048.
+POST methods in HTTP are used to send data to a server to create/update a resource or run a script, action, or other programs using given input. POST (Website) is useful for analyzing the contents of any request and performs a script that retains the contents of the request.
